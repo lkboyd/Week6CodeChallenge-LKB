@@ -1,0 +1,50 @@
+﻿﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Fake Studio</title>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script src="~/Scripts/Main.js"></script>
+
+    <link rel="stylesheet" href="~/Content/site.css" />
+</head>
+<body>
+    <header>
+        <img src="http://cdn-img.easylogo.cn/gif/51/51700.gif" class="customInlineBlock" id="logo" />
+        <nav class="customInlineBlock" id="navigate">
+            <ul class="nav nav-pills">
+                <li data-url="@Url.Action("Index", "Home")" role="presentation" class="active ajax-link" id="Home"><a href="#">Home</a></li>
+                <li data-url="@Url.Action("About", "Home")" role="presentation" class="ajax-link" id="About"><a href="#">About</a></li>
+                <li data-url="@Url.Action("Work", "Home")" role="presentation" class="ajax-link" id="Work"><a href="#">Work</a></li>
+                <li data-url="@Url.Action("Careers", "Home")" role="presentation" class="ajax-link" id="Careers"><a href="#">Careers</a></li>
+                <li data-url="@Url.Action("Contact", "Home")" role="presentation" class="ajax-link" id="Contact"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="container">
+        @RenderBody()
+    </div>
+    <footer>
+        <p id="footerNav">
+            <span data-url="@Url.Action("Index", "Home")" class="ajax-link" id="Home">Home</span> |
+            <span data-url="@Url.Action("About", "Home")" class="ajax-link" id="About">About</span> |
+            <span data-url="@Url.Action("Work", "Home")" class="ajax-link" id="Work">Work</span> |
+            <span data-url="@Url.Action("Careers", "Home")" class="ajax-link" id="Careers">Careers</span> |
+            <span data-url="@Url.Action("Contact", "Home")" class="ajax-link" id="Contact">Contact</span> &nbsp; &nbsp;
+        <p>Copyright 2014 Fake Studio</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+﻿body
+{
+    background-color: beige;
+    font-family: Gabriola;
+    overflow:scroll;
+    font-size: 25px;
+    color: darkgreen;
+}
+
+.one {
+    border-style: solid;
+    color: darkgreen;
+    border-width: 1.5px;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+h3
+{
+    font-family:Gabriola;
+    font-size: 25px;
+    text-align: center;
+}
+
+.customInlineBlock 
+{
+    display:inline-block;
+}
+
+
+#navigate
+{
+    position:absolute;
+    right:0;
+    top:156px;
+}
+
+#container
+{
+    margin-top:10px;
+ 
+}
+
+.fullWidth
+{
+    width:100%;
+}
+
+footer
+{
+    width:100%;
+    margin-top:30px;
+    height:50px;
+}
+
+footer p
+{
+    display:inline-block;
+    margin-top: 40px; 
+}
+
+#footerNav
+{
+    position:relative;
+    float:right;
+    text-align:right;
+}
+
+.thirdWidth
+{
+    width:28%;
+    border: 1px solid darkgreen;
+    margin: 10px 2% 0 2%;
+    font-size:20px;
+    padding:5px;
+}
+
+.worksamples
+{
+    width:37%;
+    margin: 15px 5% 15px 5%;
+    font-size:35px;
+}
+
+.worksamples p
+{
+    text-align:center;
+}
+
+.worksamples img
+{
+    width: 100%;
+}
+
+#footerNav span
+{
+    cursor:pointer;
+    color:darkgreen;
+}
+
+#footerNav span:hover
+{
+    color:darkgreen;
+}
+
+.nav nav-pills
+{
+    color:darkgreen
+}
+
+.nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus 
+{
+    background-color: #81DAF5
+
+}
+
+.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus 
+
+{
+    color: darkgreen
+
+}
+
+.btn
+{
+    color: darkgreen;
+    font-size:25px; 
+}
+
+p
+{
+    text-align:center;
+}
